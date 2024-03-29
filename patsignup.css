@@ -32,20 +32,23 @@
       /* background: #eaeceb; */
       display: flex;
       flex-direction: column;
-      padding: 0px 20px;
-      height: 100%;
+      padding: 0 10px;
+      margin-top: 80px;
+      height: 80%;
       justify-content: center;
       align-items: center;
   }
   form input{
       background: #f7f5f5;
       padding: 10px;
-      padding-left: 6px;
+      padding-left: 10px;
       font-size: small;
       font-weight:100;
       font-family: 'Times New Roman';
-      margin: 10px 20px;
-      width: 100%;
+      margin: 7px 7px;
+      margin-left: 10px;
+      margin-right: 10px;
+      width: 80%;
       height: 2px;
       border: 0;
       outline: none;
@@ -70,7 +73,7 @@
     font-size: 13px;
     margin: 10px 0 20px 0;
     color: #000000;
-    padding-right: 120px;
+    padding-right: 20px;
  } 
 
  .check{
@@ -81,8 +84,8 @@
     /* box-shadow: #dde6e5; */
     color: rgb(231, 16, 16);
     /* background-color: #000000; */
-    
 }
+
   button{
       /* border-radius: 20px; */
       border: none;
@@ -99,8 +102,9 @@
   }
   .form_btn{
     width: 220px;
-    margin-bottom: 50px;
-    height: 20px;
+    margin-bottom: 30px;
+    margin-top: -15px;
+    height: 10px;
     border-radius: 8px;
     background-color: #007D79;
     color: white;
@@ -170,7 +174,7 @@
     width: 100%;
     margin: 36px 0;
     top: -10%;
-    background-color: #d4d4d4;
+    background-color: black;
 }
 .line::before{
     content: 'Or continue with';
@@ -181,6 +185,7 @@
     /* background-color: #FFF; */
     color: #8b8b8b;
     padding: 0 0.2px;
+    font-size: 10px;
 }
 
 
@@ -188,8 +193,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    top: -100px;
-    bottom: 20px;
+    top: 120px;
+    bottom: 50px;
     text-decoration: none;
     color: #000;
     padding-top: 5px;
@@ -225,7 +230,7 @@
 
 a.facebook{
     background-color: white;
-    margin-top: -70px;
+    margin-top: -60px;
 }
 
 a.facebook span{
@@ -241,4 +246,32 @@ a.google span{
     font-size: 12px;
     font-family: 'Times New Roman';
     color: black;
+}
+
+.sign-in{
+  margin: 10px 0 0 10px;
+  margin-right: 130px;
+  color: #595959;
+  font-size: 10px;
+}
+.sign-in a{
+  color: #3498db;
+  text-decoration: none;
+}
+.sign-in a:hover{
+  text-decoration: underline;
+}
+
+.terms{
+  margin: 10px 20px;
+  color: #595959;
+  font-size: 10px;
+  padding-bottom: 30px;
+}
+.terms a{
+  color: #3498db;
+  text-decoration: none;
+}
+.terms a:hover{
+  text-decoration: underline;
 }
