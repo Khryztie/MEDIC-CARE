@@ -192,6 +192,8 @@
     bottom: 20px;
     text-decoration: none;
     color: #000;
+    padding-top: 5px;
+    padding-bottom: 5px;
     padding-left: 55px;
     padding-right: 55px;
     border-radius: 5px;
@@ -199,7 +201,6 @@
 
 .fa {
     display:flex;
-    padding: 5px;
     padding-left: 20px;
     font-size: 5px;
     width: 70px;
