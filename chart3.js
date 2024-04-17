@@ -1,6 +1,6 @@
 
 var ctx2 = document.getElementById('doughnut').getContext('2d');
-var myChart2 = new Chart(ctx2, {
+var myChart3 = new Chart(ctx3, {
     type: 'doughnut',
     data: {
         labels: ['Consultations', 'Analysis', 'Meetings'],

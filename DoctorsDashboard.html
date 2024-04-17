@@ -24,7 +24,7 @@
             </div>
             <i class="fas fa-bell"></i>
             <div class="user">
-                <img src="img/user.png" alt="">
+                <img src="images/Frame 427321422.png" alt="">
             </div>
         </div>
         <div class="sidebar">
@@ -84,7 +84,7 @@
         <div class="main">
             <div class="welcome>" style="font-weight: bold; font-size: 20px;margin-top: 20px; 
             margin-bottom: 15px; margin-left: 10px;">
-                Welcome Denzel,
+                Welcome Dr. Vanhausen,
             </div>
             <div class="see" style="margin-left: 10px;">
                 See what your dashboard looks like today
@@ -95,8 +95,8 @@
                         <i class="fas fa-clock"></i>
                     </div>
                     <div class="card-content">
-                        <div class="number">10</div>
-                        <div class="card-name">Medical History</div>
+                        <div class="number">45</div>
+                        <div class="card-name">Patients Scan</div>
                     </div>
                 </div>
                 <div class="card2">
@@ -104,8 +104,8 @@
                         <i class="fas fa-upload"></i>
                     </div>
                     <div class="card-content">
-                        <div class="number">5</div>
-                        <div class="card-name">Medical Uploads</div>
+                        <div class="number">10</div>
+                        <div class="card-name">Surgeries</div>
                     </div>
                     
                 </div>
@@ -114,30 +114,98 @@
                         <i class="fas fa-calendar"></i>
                     </div>
                     <div class="card-content">
-                        <div class="number">8</div>
-                        <div class="card-name">Health Education</div>
+                        <div class="number">15 min</div>
+                        <div class="card-name">Wait time</div>
                     </div>
                     
                 </div>
+                <div class="calendar">
+                    <div class="month">April 2024</div>
+                    <div class="days">
+                        <div class="day">Sun</div>
+                        <div class="day">Mon</div>
+                        <div class="day">Tue</div>
+                        <div class="day">Wed</div>
+                        <div class="day">Thu</div>
+                        <div class="day">Fri</div>
+                        <div class="day">Sat</div>
+                        <div class="day"></div>
+                        <div class="day"></div>
+                        <div class="day">1</div>
+                        <div class="day">2</div>
+                        <div class="day">3</div>
+                        <div class="day">4</div>
+                        <div class="day">5</div>
+                        <div class="day">6</div>
+                        <div class="day">7</div>
+                        <div class="day">8</div>
+                        <div class="day">9</div>
+                        <div class="day">10</div>
+                        <div class="day">11</div>
+                        <div class="day">12</div>
+                        <div class="day">13</div>
+                        <div class="day">14</div>
+                        <div class="day">15</div>
+                        <div class="day">16</div>
+                        <div class="day">17</div>
+                        <div class="day">18</div>
+                        <div class="day">19</div>
+                        <div class="day">20</div>
+                        <div class="day">21</div>
+                        <div class="day">22</div>
+                        <div class="day">23</div>
+                        <div class="day">24</div>
+                        <div class="day">25</div>
+                        <div class="day">26</div>
+                        <div class="day">27</div>
+                        <div class="day">28</div>
+                        <div class="day">29</div>
+                        <div class="day">30</div>
+                    </div>
+                </div>
+            
             </div>
             <div class="charts">
                 <div class="chart">
-                    <h2>Patient Weekly Statistics</h2>
-                    <div>
-                        <canvas id="lineChart"></canvas>
-                    </div>
-                </div>
-                <div class="doughnut-chart">
-                    <h2>Patient Analytics</h2>
+                    <h2 class="chart-heading">My Scheduled Appointment</h2>
                     <div>
                         <canvas id="doughnut"></canvas>
                     </div>
+                    <div class="doughnut-details">
+                        <ul>
+                            <li>Consultations <span class="dot1"></span> <span class="doughnut-percentage">100% completed</span></li><br>
+                            <li>Analysis <span class="dot2"></span><span class="doughnut-percentage">100% completed</span> </li><br>
+                            <li>Meetings <span class="dot3"></span> <span class="doughnut-percentage">100% completed</span> </li><br>
+                        </ul>
+                    </div>
                 </div>
+                <div class="note-cards">
+                    <div class="note-card1">
+                    <h5 class="note-card-heading">Today's Schedule</h5>
+                    <div class="details"> 9:00am &nbsp<span class="dot4"></span>&nbsp Patient consultation <br> 
+                        11:00am &nbsp<span class="dot4"></span>&nbsp Surgery <br> 
+                        2:00pm &nbsp<span class="dot4"></span>&nbsp Follow up appointment</div>
+                    </div>
+
+                    <div class="note-card2">
+                    <h5 class="note-card-heading">Upcoming Appointments</h5>
+                    <div class="details"> Tomorrow 10:00am &nbsp <span class="dot4"></span> &nbsp Patient consultation John Smith<br> 
+                        April 5th 1:30pm &nbsp<span class="dot4"></span> &nbsp Pre-Operative consultation Micheal Johnson <br> 
+                        April 8th 9:30pm &nbsp <span class="dot4"></span>&nbsp Post-Operative follow-up Emily Nelson</div>
+                    </div>
+
+                    <div class="note-card3">
+                    <h5 class="note-card-heading">Patient Notification</h5>
+                    <div class="details"> New Appointment Request &nbsp <span class="dot4"></span>&nbsp Mary Thomson. April 12th 5:00pm <br> 
+                        Appointment Reminder &nbsp <span class="dot4"></span> &nbsp Grace Philips 9:00am <br> 
+                        Patient Massage &nbsp<span class="dot4"></span>&nbsp Rebecca Linus. Rehabilitation inquiry</div>
+                </div>
+                
             </div>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
-    <script src="chart1.js"></script>
+    <!-- <script src="chart1.js"></script> -->
     <script src="chart2.js"></script>
 </body>
 
