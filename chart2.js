@@ -9,15 +9,15 @@ var myChart2 = new Chart(ctx2, {
             label: 'Patient Analytics',
             data: [20, 12, 35],
             backgroundColor: [
-                'rgba(49, 135, 9, 1)',
-                'rgba(54, 12, 235, 1)',
-                'rgba(25, 26, 87, 111)',
+                '#484be9',
+                '#e9ca1e',
+                '#009D9A',
 
             ],
             borderColor: [
-                'rgba(49, 135, 9, 1)',
-                'rgba(54, 12, 235, 1)',
-                'rgba(25, 26, 87, 111)',
+                '#484be9',
+                '#e9ca1e',
+                '#009D9A',
 
 
             ],

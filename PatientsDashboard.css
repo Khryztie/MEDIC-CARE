@@ -288,33 +288,33 @@ img {
     );
 }
 
-.doughnut-chart h3{
+.pie-chart h3{
     margin-bottom: 50px;
     margin-left: 60px;
     margin-top: -200px;
 }
 
-.doughnut-details{
+.piechart-details{
     padding-top: 30px;
     font-size: 15px;
     margin-left: 45px;
 }
 
-.doughnut-details ul{
+.piechart-details ul{
     list-style: none;
 }
 
-.doughnut-details ul li{
+.piechart-details ul li{
     width: 200px;
     
 }
 
-.doughnut-percentage{
+.piechart-percentage{
     font-size: 10px;
     padding-left: 120px;
 }
 
-.doughnut-chart .dot1{
+.pie-chart .dot1{
     height: 10px;
     width: 200px;
     background-color: #484be9;
@@ -322,7 +322,7 @@ img {
     display: inline-block;
 }
 
-.doughnut-chart .dot2{
+.pie-chart .dot2{
     height: 10px;
     width: 200px;
     background-color: #e9ca1e;
@@ -330,7 +330,7 @@ img {
     display: inline-block;
 }
 
-.doughnut-chart .dot3{
+.pie-chart .dot3{
     height: 10px;
     width: 200px;
     background-color: #009D9A;
